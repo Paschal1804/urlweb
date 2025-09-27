@@ -9,7 +9,7 @@ import Analytics from "./pages/Analytics";
 import Contact from "./pages/Contact";
 import Register from "./pages/Register";
 import Fetch from "./pages/Fetch";
-
+import { HashRouter as Router } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
 
